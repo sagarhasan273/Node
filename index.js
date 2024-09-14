@@ -1,5 +1,5 @@
-// const myArray = [11, 20, 13, 10, 5, 30];
-// console.log(myArray);
+const myArray = [11, 20, 13, 10, 5, 30];
+console.log(myArray);
 
 // const myArray1 = new Array(5);
 // console.log(myArray1);
@@ -35,8 +35,10 @@
 // let fruits = ['aanana', 'bpple', 'aherry'];
 // console.log(fruits.sort((a, b) => a.localeCompare(b)));
 
-let string1 = 'apple';
-let string2 = 'Apple';
+// let string1 = 'apple';
+// let string2 = 'Apple';
 
-console.log(string1.localeCompare(string2));
-console.log(string1.localeCompare(string2, 'en', { sensitivity: 'accent' }))
+// console.log(string1.localeCompare(string2));
+// console.log(string1.localeCompare(string2, 'en', { sensitivity: 'accent' }))
+
+console.log(myArray.reverse());
