@@ -41,4 +41,7 @@ console.log(myArray);
 // console.log(string1.localeCompare(string2));
 // console.log(string1.localeCompare(string2, 'en', { sensitivity: 'accent' }))
 
-console.log(myArray.reverse());
+// console.log(myArray.reverse());
+
+console.log(myArray.shift())
+console.log(myArray);
