@@ -32,5 +32,5 @@
 
 // console.log(users.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase())));
 
-let fruits = ['banana', 'Apple', 'aherry'];
-console.log(fruits.sort((a, b) => a.localeCompare(b)));
+// let fruits = ['aanana', 'bpple', 'aherry'];
+// console.log(fruits.sort((a, b) => a.localeCompare(b)));
