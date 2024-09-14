@@ -48,5 +48,5 @@ console.log(myArray);
 
 // console.log([].shift());
 
-console.log(myArray.unshift(-1, 0))
-console.log(myArray)
+// console.log(myArray.unshift(-1, 0))
+// console.log(myArray)
