@@ -43,5 +43,7 @@ console.log(myArray);
 
 // console.log(myArray.reverse());
 
-console.log(myArray.shift())
-console.log(myArray);
+// console.log(myArray.shift())
+// console.log(myArray);
+
+// console.log([].shift())
