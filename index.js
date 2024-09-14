@@ -34,3 +34,9 @@
 
 // let fruits = ['aanana', 'bpple', 'aherry'];
 // console.log(fruits.sort((a, b) => a.localeCompare(b)));
+
+let string1 = 'apple';
+let string2 = 'Apple';
+
+console.log(string1.localeCompare(string2));
+console.log(string1.localeCompare(string2, 'en', { sensitivity: 'accent' }))
