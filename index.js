@@ -1,5 +1,5 @@
-const myArray = [11, 20, 13, 10, 5, 30];
-console.log(myArray);
+// const myArray = [11, 20, 13, 10, 5, 30];
+// console.log(myArray);
 
 // const myArray1 = new Array(5);
 // console.log(myArray1);
@@ -19,5 +19,18 @@ console.log(myArray);
 // console.log(myArray.unshift(1))
 // console.log(myArray);
 
-console.log(myArray.sort((a, b) => b - a));
-console.log(myArray);
+// console.log(myArray.sort((a, b) => { return a - b }));
+// console.log(myArray);
+
+// sorting an array of objects
+
+// const users = [
+//     { name: 'aagar', age: 24 },
+//     { name: 'Aarveen', age: 33 },
+//     { name: 'aasan', age: 32 },
+// ]
+
+// console.log(users.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase())));
+
+let fruits = ['banana', 'Apple', 'aherry'];
+console.log(fruits.sort((a, b) => a.localeCompare(b)));
