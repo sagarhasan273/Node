@@ -50,3 +50,7 @@ console.log(myArray);
 
 // console.log(myArray.unshift(-1, 0))
 // console.log(myArray)
+
+let deeplyNestedArray = [1, [2, [3, [4, [5]]]]]
+let fullyFlatArray = deeplyNestedArray.flat(Infinity);
+console.log(fullyFlatArray);
