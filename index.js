@@ -43,7 +43,7 @@ console.log(myArray);
 
 // console.log(myArray.reverse());
 
-// console.log(myArray.shift())
+// console.log(myArray.shift());
 // console.log(myArray);
 
 // console.log([].shift());
@@ -51,6 +51,6 @@ console.log(myArray);
 // console.log(myArray.unshift(-1, 0))
 // console.log(myArray)
 
-let deeplyNestedArray = [1, [2, [3, [4, [5]]]]]
-let fullyFlatArray = deeplyNestedArray.flat(Infinity);
-console.log(fullyFlatArray);
+// let deeplyNestedArray = [1, [2, [3, [4, [5]]]]]
+// let fullyFlatArray = deeplyNestedArray.flat(Infinity);
+// console.log(fullyFlatArray);
