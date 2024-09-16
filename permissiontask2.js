@@ -23,13 +23,14 @@ for (let i = 0; i < permissions.length; i++) {
     const permission = permissions[i].split('.')[1];
     let flag = false;
 
-    for (let j = 0; j < mutatedPermissions.length; j++) {
-        if (mutatedPermissions[j].groupName === permission) {
-            mutatedPermissions[j].permissions.push(permissions[i]);
+    mutatedPermissions.map((item) => {
+        if (item.groupName === permission) {
+            item.permissions.push(permissions[i]);
             flag = true;
-            break;
+            return item;
         }
-    }
+        return item;
+    }) 
 
     if (flag){
         continue;
