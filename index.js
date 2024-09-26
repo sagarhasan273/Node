@@ -1,3 +1,3 @@
 let str = "Hello";
-
-console.log( str.toUpperCase() ); // HELLO
+str.test = 5
+console.log(str.test);
