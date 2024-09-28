@@ -1,13 +1,20 @@
-const user = new Object();
+let user = {
+    name: "John",
+    sizes: {
+      height: 182,
+      width: 50
+    }
+};
 
-user['name'] = 'John';
-console.log(user.name);
+let clone = Object.assign({}, user);
 
-user['surname'] = 'Smith';
-console.log(user.surname);
+user.name = 'Sagar';
+console.log(clone.name);
 
-user['name'] = 'Pete';
-console.log(user.name);
+user.sizes.height = 4;
+console.log(clone.sizes.height);
 
-delete user.name;
-console.log(user.name);
+console.log( user.sizes === clone.sizes ); // Output: true
+console.log( user.sizes == clone.sizes );  // Output: true
+console.log(user === clone); // Output: false
+console.log(user == clone); // Output: false
