@@ -1,9 +1,7 @@
-const user = {}
-user.name = 'sagar';
-console.log(user.name);
+let fruit = 'banana';
 
-const father = new Object();
+let bag = {
+    [fruit]: 3,
+}
 
-father.name = "Ahsan";
-
-console.log(father.name);
+console.log(bag.banana);
