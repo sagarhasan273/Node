@@ -5,3 +5,4 @@ let bag = {
 }
 
 console.log(bag.banana);
+console.log(bag[fruit])
