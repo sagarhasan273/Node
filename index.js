@@ -1,8 +1,9 @@
-let fruit = 'banana';
+let user = {
+    name: "John",
+    age: 30,
+    isAdmin: true
+};
 
-let bag = {
-    [fruit]: 3,
+for (let props in user) {
+    console.log( props );
 }
-
-console.log(bag.banana);
-console.log(bag[fruit])
