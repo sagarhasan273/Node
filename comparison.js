@@ -1,6 +1,6 @@
 console.log(1 === '1');
-// console.log(true === 1);
-console.log(null === undefined);
+console.log(true === 1);
+// console.log(null === undefined);
 console.log('' === false);
 console.log(NaN === NaN);
 // console.log([1, 2, 3] === [1, 2, 3]);
