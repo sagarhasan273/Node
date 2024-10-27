@@ -5,7 +5,7 @@ console.log('' === false);
 console.log(NaN === NaN);
 // console.log([1, 2, 3] === [1, 2, 3]);
 console.log('hello' === 'hello');
-console.log([] === []);
+// console.log([] === []);
 console.log(true == 1);
 console.log(1 == '1');
 console.log(null == undefined);
