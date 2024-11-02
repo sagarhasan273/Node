@@ -18,4 +18,4 @@ console.log(17, null == false);
 console.log(18, [0] == false);
 console.log(19, [null] == false);
 console.log(20, [1, {}, 3] == '1,{},3');
-// console.log([1, {name: 'sagar'}, 3] == [1, {name: 'sagar'}, 3]);
+// console.log(21, [1, {name: 'sagar'}, 3] == [1, {name: 'sagar'}, 3]);
