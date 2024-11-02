@@ -10,7 +10,7 @@ console.log(9, true == 1);
 console.log(10, 1 == '1');
 console.log(11, null == undefined);
 console.log(12, '' == false);
-console.log('0' == false);
+console.log(13, '0' == false);
 console.log([1, 2, 3] == '1,2,3');
 console.log([] == false);
 console.log(null == 0);
