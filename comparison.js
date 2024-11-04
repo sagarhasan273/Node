@@ -7,7 +7,7 @@ console.log(5, NaN === NaN);
 console.log(7, 'hello' === 'hello');
 // console.log(8, [] === []);
 console.log(9, true == 1);
-console.log(10, 1 == '1');
+// console.log(10, 1 == '1');
 console.log(11, null == undefined);
 console.log(12, '' == false);
 console.log(13, '0' == false);
