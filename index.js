@@ -6,7 +6,14 @@ const promise = new Promise((resolve, reject) => {
     reject("Operation failed.");
   }
 });
-console.log("promise before...")
+
+let i = 0;
+
+while (i < 100000){
+  console.log("promise before...");
+  i += 1;
+}
+
 promise.then((data) => {
   console.log(data);
 }).catch((error) => {
