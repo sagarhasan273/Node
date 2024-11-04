@@ -7,16 +7,26 @@ const promise = new Promise((resolve, reject) => {
   }
 });
 
-let i = 0;
+const asyncFunction = async () => {
+  function func() {
+    let i = 0;
 
-while (i < 100000){
-  console.log("promise before...");
-  i += 1;
+    while (i < 10000000000) {
+      i += 1;
+    }
+    return i; // This will immediately resolve the Promise with value i
+  }
+
+  console.log('resulting...')
+  const res = func();
+  console.log('result...', res)
 }
-
+ 
 promise.then((data) => {
   console.log(data);
 }).catch((error) => {
   console.log(error);
 })
-console.log("promise after...")
+asyncFunction();
+
+console.log("end execution...")
