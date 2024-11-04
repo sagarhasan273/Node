@@ -13,7 +13,7 @@ console.log(12, '' == false);
 console.log(13, '0' == false);
 console.log(14, [1, 2, 3] == '1,2,3');
 // console.log(15, [] == false);
-console.log(16, null == 0);
+// console.log(16, null == 0);
 console.log(17, null == false);
 console.log(18, [0] == false);
 console.log(19, [null] == false);
