@@ -1,20 +1,15 @@
-let user = {
-    name: "John",
-    sizes: {
-      height: 182,
-      width: 50
-    }
-};
-
-let clone = Object.assign({}, user);
-
-user.name = 'Sagar';
-console.log(clone.name);
-
-user.sizes.height = 4;
-console.log(clone.sizes.height);
-
-console.log( user.sizes === clone.sizes ); // Output: true
-console.log( user.sizes == clone.sizes );  // Output: true
-console.log(user === clone); // Output: false
-console.log(user == clone); // Output: false
+const promise = new Promise((resolve, reject) => {
+  const success = true;
+  if (success) {
+    resolve("Operation successful!");
+  } else {
+    reject("Operation failed.");
+  }
+});
+console.log("promise before...")
+promise.then((data) => {
+  console.log(data);
+}).catch((error) => {
+  console.log(error);
+})
+console.log("promise after...")
