@@ -1,13 +1,17 @@
 const promise = new Promise((resolve, reject) => {
   const success = true;
   if (success) {
+    let i = 0;
+    while (i < 10000000000) {
+      i += 1;
+    }
     resolve("Operation successful!");
   } else {
     reject("Operation failed.");
   }
 });
 
-const asyncFunction = async () => {
+const asyncFunction = () => {
   function func(n) {
     let i = 0;
 
@@ -27,6 +31,7 @@ const asyncFunction = async () => {
   const res = func(10000000000);
   console.log('result...', res)
 }
+asyncFunction();
  
 promise.then((data) => {
   console.log(data);
@@ -34,6 +39,5 @@ promise.then((data) => {
   console.log(error);
 }).finally(() => {console.log('finally result...')});
 
-asyncFunction();
 
 console.log("end execution...")
