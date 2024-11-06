@@ -8,7 +8,7 @@ const promise = new Promise((resolve, reject) => {
 });
 
 const asyncFunction = async () => {
-  async function func(n) {
+  function func(n) {
     let i = 0;
 
       while (i < n) {
@@ -18,13 +18,13 @@ const asyncFunction = async () => {
   }
 
   console.log('resulting1...')
-  const res1 = await func(10000000000);
+  const res1 = func(10000000000);
   console.log('result1...', res1)
   console.log('resulting2...')
-  const res2 = await func(10000000000);
+  const res2 = func(10000000000);
   console.log('result2...', res2)
   console.log('resulting...')
-  const res = await func(10000000000);
+  const res = func(10000000000);
   console.log('result...', res)
 }
  
