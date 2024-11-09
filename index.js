@@ -31,6 +31,7 @@ const asyncFunction = () => {
   const res = func(10000000000);
   console.log('result...', res)
 }
+
 asyncFunction();
  
 promise.then((data) => {
