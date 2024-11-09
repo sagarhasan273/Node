@@ -11,7 +11,7 @@ const promise = new Promise((resolve, reject) => {
   }
 });
 
-const asyncFunction = () => {
+const asyncFunction = (n) => {
   function func(n) {
     let i = 0;
 
@@ -22,17 +22,17 @@ const asyncFunction = () => {
   }
 
   console.log('resulting1...')
-  const res1 = func(10000000000);
+  const res1 = func(n);
   console.log('result1...', res1)
   console.log('resulting2...')
-  const res2 = func(10000000000);
+  const res2 = func(n);
   console.log('result2...', res2)
   console.log('resulting...')
-  const res = func(10000000000);
+  const res = func(n);
   console.log('result...', res)
 }
 
-asyncFunction(n);
+asyncFunction(10000000000);
  
 promise.then((data) => {
   console.log(data);
