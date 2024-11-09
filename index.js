@@ -32,7 +32,7 @@ const asyncFunction = () => {
   console.log('result...', res)
 }
 
-asyncFunction();
+asyncFunction(n);
  
 promise.then((data) => {
   console.log(data);
