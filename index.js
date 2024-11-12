@@ -27,6 +27,9 @@ const asyncFunction = async (n) => {
   console.log('resulting2...')
   const res2 = func(n);
   console.log('result2...', res2)
+  console.log('resulting3...')
+  const res3 = func(n);
+  console.log('result3...', res3)
   console.log('resulting...')
   const res = func(n);
   console.log('result...', res)
