@@ -11,7 +11,7 @@ const promise = new Promise((resolve, reject) => {
   }
 });
 
-const asyncFunction = (n) => {
+const asyncFunction = async (n) => {
   function func(n) {
     let i = 0;
 
