@@ -35,12 +35,12 @@ const asyncFunction = async (n) => {
   console.log('result...', res)
 }
 
-asyncFunction(10000000000);
- 
+
 promise.then((data) => {
   console.log(data);
 }).catch((error) => {
   console.log(error);
 }).finally(() => {console.log('finally result...')});
 
+asyncFunction(10000000000);
 console.log("end execution...")
