@@ -21,7 +21,6 @@ const asyncFunction = async (n) => {
       return i; // This will immediately resolve the Promise with value i
   }
 
-
   console.log('resulting1...')
   const res1 = func(n);
   console.log('result1...', res1)
