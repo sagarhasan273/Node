@@ -21,7 +21,7 @@ const asyncFunction = async (n) => {
       return i; // This will immediately resolve the Promise with value i
   }
 
-  
+
   console.log('resulting1...')
   const res1 = func(n);
   console.log('result1...', res1)
@@ -36,6 +36,7 @@ const asyncFunction = async (n) => {
   console.log('result...', res)
 }
 
+asyncFunction(10000000000);
 
 promise.then((data) => {
   console.log(data);
@@ -43,5 +44,4 @@ promise.then((data) => {
   console.log(error);
 }).finally(() => {console.log('finally result...')});
 
-asyncFunction(10000000000);
 console.log("end execution...")
