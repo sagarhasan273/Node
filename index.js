@@ -18,7 +18,7 @@ const asyncFunction = async (n) => {
       while (i < n) {
         i += 1;
       }
-      return i; // This will immediately resolve the Promise with value i
+      return i;
   }
 
   console.log('resulting1...')
