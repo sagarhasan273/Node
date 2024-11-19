@@ -43,4 +43,4 @@ promise.then((data) => {
   console.log(error);
 }).finally(() => {console.log('finally result...')});
 
-console.log("end execution...")
+console.log("done execution...")
