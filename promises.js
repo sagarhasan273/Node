@@ -37,10 +37,10 @@ const promise = new Promise((resolve, reject) => {
   
   asyncFunction(10000000000);
   
-  promise.then((data) => {
-    console.log(data);
-  }).catch((error) => {
-    console.log(error);
-  }).finally(() => {console.log('finally result...')});
+//   promise.then((data) => {
+//     console.log(data);
+//   }).catch((error) => {
+//     console.log(error);
+//   }).finally(() => {console.log('finally result...')});
   
   console.log("done execution...")
