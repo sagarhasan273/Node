@@ -18,18 +18,18 @@ const asyncFunction = async (n) => {
       while (i < n) {
         i += 1;
       }
-      return i; // This will immediately resolve the Promise with value i
+      return i;
   }
 
-  console.log('resulting1...')
+  console.log('resulting 1...')
   const res1 = func(n);
   console.log('result1...', res1)
-  console.log('resulting2...')
+  console.log('resulting 2...')
   const res2 = func(n);
   console.log('result2...', res2)
-  console.log('resulting3...')
+  console.log('resulting 3...')
   const res3 = func(n);
-  console.log('result3...', res3)
+  console.log('result 3...', res3)
   console.log('resulting...')
   const res = func(n);
   console.log('result...', res)
@@ -43,4 +43,4 @@ promise.then((data) => {
   console.log(error);
 }).finally(() => {console.log('finally result...')});
 
-console.log("end execution...")
+console.log("done execution...")
