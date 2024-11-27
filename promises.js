@@ -20,8 +20,7 @@ const promise = new Promise((resolve, reject) => {
         }
         return i;
     }
-  
-    
+
     console.log('resulting 1...')
     const res1 = func(n);
     console.log('result1...', res1)
