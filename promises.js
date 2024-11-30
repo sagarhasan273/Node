@@ -4,4 +4,6 @@ function delay(ms) {
   })
 }
 
-delay(3000).then(() => console.log('runs after 3 seconds'));
+delay(3000)
+.then(() => 'runs after 3 seconds')
+.then((data) => console.log(data + 2));
