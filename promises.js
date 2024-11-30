@@ -1,5 +1,10 @@
-new Promise((resolve) => {
-  setTimeout(() => resolve('solved'), 2000);
+let promise = new Promise((resolve) => {
+  setTimeout(() => resolve('solved'), 1000);
 })
 .then((value) => console.log('Promise is '+ value))
-.finally(() => console.log('promise is ready'))
+.finally(() => {
+  console.log(1/0)
+  throw new Error("error");
+}).catch(err => console.log(err))
+
+console.log(promise);
