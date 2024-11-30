@@ -1,7 +1,7 @@
-let promise = new Promise((resolve) => {
-  resolve('solved');
-})
-.then((value) => console.log('Promise is '+ value))
-.catch(err => console.log(err))
+function delay(ms) {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(), ms);
+  })
+}
 
-console.log(promise);
+delay(3000).then(() => console.log('runs after 3 seconds'));
